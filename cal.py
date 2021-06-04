@@ -69,7 +69,7 @@ class Calculator(QWidget):
         self.btn_5.clicked.connect(lambda: self.pressed_number("5"))
         self.btn_6.clicked.connect(lambda: self.pressed_number("6"))
         self.btn_7.clicked.connect(lambda: self.pressed_number("7"))
-        self.btn_8.clicked.connect(lambda: self.pressed_number("8"))
+
         self.btn_9.clicked.connect(lambda: self.pressed_number("9"))
         self.btn_plus.clicked.connect(lambda: self.pressed_operation("+"))
         self.btn_minus.clicked.connect(lambda: self.pressed_operation("-"))
